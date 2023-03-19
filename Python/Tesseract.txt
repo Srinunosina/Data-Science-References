@@ -1,0 +1,12 @@
+
+python -m pip install -U pip --user
+pip install numpy==1.19.5
+
+---------------------------------------------------------------------------------
+
+import pytesseract
+
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+print(pytesseract.image_to_string(r'D:\Srinu Docs\Images\1.png'))
+
+----------------------------------------------------------------------------------------
